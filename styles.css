@@ -1,0 +1,79 @@
+img{
+	max-width: 100%;
+}
+
+#facebook-wrapper{
+
+}
+
+#header{
+	background-color: #3B5998;
+	overflow: hidden;
+	width: 100%;
+
+}
+
+#header-inner{
+	width: 900px;
+	margin:  auto;
+}
+
+#left-header{
+
+}
+
+#fb-logo{
+	height: 24px;
+	width: 24px;
+	background-image:  url('fb_sprite.png');
+	background-size: 26px 905px;
+    background-position: 0 -163px;
+}
+
+#fb-logo, #fb-search{
+	float:  left;
+	margin-left: 10px;
+}
+
+#fb-search input{
+	border-radius: 5px;
+	width: 200px;
+}
+
+#right-header{
+	float: right;
+}
+
+#right-header div{
+	float: left;
+}
+
+#small-avatar{
+	height: 24px;
+	width: 24px;
+}
+
+/* This is a catch all for the 3 social icon divs */
+.social-icon{
+	height: 24px;
+	width: 24px;
+	background-image:  url('fb_sprite.png');
+	background-size: 26px 905px
+
+}
+
+/* specific to friends div */
+.friends{
+	background-position: 0 -188px;
+}
+
+/* specific to messages div */
+.messages{
+	background-position: 0 -338px;
+}
+
+/* specific to notifcations div */
+.notifications{
+	background-position: 0 -238px;
+
+}
