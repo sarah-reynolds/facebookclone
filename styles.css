@@ -3,6 +3,7 @@ img{
 }
 
 #facebook-wrapper{
+	font-family: helvetica, arial, sans-serif;
 
 }
 
@@ -58,7 +59,8 @@ img{
 	height: 24px;
 	width: 24px;
 	background-image:  url('fb_sprite.png');
-	background-size: 26px 905px
+	background-size: 26px 905px;
+	margin-left: 5px;
 
 }
 
@@ -76,4 +78,82 @@ img{
 .notifications{
 	background-position: 0 -238px;
 
+}
+
+.lock{
+	background-position: 0 -859px;
+	height: 16px;
+	margin-left:  10px;
+}
+
+.down-arrow{
+	background-position: 0 -825px;
+	height: 16px;
+
+}
+
+.spacer{
+	line-height: 24px;
+	margin: 0 10px;
+}
+
+#cover-photo-wrapper{
+	max-width: 900px;
+	margin: auto;
+	width: 100%;
+}
+
+#big-photo{
+	max-height: 350px;
+	overflow: hidden;
+}
+
+#big-photo img{
+
+}
+
+#big-avatar{
+	display: inline-block;
+}
+
+#avatar-name{
+	float: left;
+	color: white;
+	font-size: 24px;
+}
+
+#cover-buttons{
+	float: right;
+}
+
+#cover-buttons button{
+	font-weight: bold;
+	font-size: 12px;
+	color: #4B4F56;
+	background-color: #F6F7F9;
+	border: 1px solid #4B4F56;
+	border-radius: 2px;
+	padding: 0 10px;
+	line-height: 26px;
+}
+
+#cover-menu{
+	clear: both;
+}
+
+.cover-menu-item{
+	float:  left;
+	list-style-type: none;
+	padding: 10px;
+	margin-top:  30px;
+	background-color: white;
+}
+
+#cover-photo-right{
+	display: inline-block;
+	width: 80%;
+}
+
+#cover-photo-lower{
+	margin-top: -130px;
 }
