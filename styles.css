@@ -4,6 +4,7 @@ img{
 
 #facebook-wrapper{
 	font-family: helvetica, arial, sans-serif;
+	background-color: #E9EBEE;
 
 }
 
@@ -11,12 +12,13 @@ img{
 	background-color: #3B5998;
 	overflow: hidden;
 	width: 100%;
+	height: 43px;
 
 }
 
 #header-inner{
 	width: 900px;
-	margin:  auto;
+	margin:  10px auto;
 }
 
 #left-header{
@@ -37,16 +39,27 @@ img{
 }
 
 #fb-search input{
-	border-radius: 5px;
-	width: 200px;
+	border-radius: 2px;
+	border: none;
+	width: 400px;
+	height: 22px;
 }
 
 #right-header{
 	float: right;
+	font-size: 12px;
+	font-weight: bold;
+	color: white;
+	line-height: 25px;
 }
 
 #right-header div{
 	float: left;
+}
+
+#right-header a{
+	color: white;
+	text-decoration: none;
 }
 
 #small-avatar{
@@ -95,6 +108,15 @@ img{
 .spacer{
 	line-height: 24px;
 	margin: 0 10px;
+	color: black;
+}
+
+#avatar-name-top, #home-link{
+	padding-left: 15px;
+}
+
+#home-link{
+	padding-right: 15px;
 }
 
 #cover-photo-wrapper{
@@ -114,12 +136,14 @@ img{
 
 #big-avatar{
 	display: inline-block;
+	margin-left: 15px;
 }
 
 #avatar-name{
 	float: left;
 	color: white;
 	font-size: 24px;
+	margin-left: 15px;
 }
 
 #cover-buttons{
@@ -137,23 +161,46 @@ img{
 	line-height: 26px;
 }
 
+#cover-photo-right{
+	display: inline-block;
+	width: 77%;
+	margin-bottom: 50px;
+}
+
+#cover-photo-lower{
+
+}
+
+#cover-menu-wrapper{
+	background-color: white;
+	width: 900px;
+	margin: -30px auto 0 auto;
+	border: 1px solid #E9EAED;
+}
+
 #cover-menu{
-	clear: both;
+	width: 500px;
+	margin:  auto;
+	border-left: 1px solid #E9EAED;
+	overflow: hidden;
+	background-color: white;
 }
 
 .cover-menu-item{
 	float:  left;
 	list-style-type: none;
-	padding: 10px;
-	margin-top:  30px;
+	padding: 12px;
 	background-color: white;
+	line-height: 20px;
+	color: #365899;
+	font-weight: bold;
+	border-right: 1px solid #E9EAED;
+
 }
 
-#cover-photo-right{
-	display: inline-block;
-	width: 80%;
-}
-
-#cover-photo-lower{
-	margin-top: -130px;
+#body-content-wrapper{
+	background-color: white;
+	width: 900px;
+	height: 500px;
+	margin: auto;
 }
