@@ -8,15 +8,15 @@ img{
 }
 
 #header{
-	background-color: #3B5998;
-	overflow: hidden;
-	width: 100%;
-
+    background-color: #3B5998;
+    overflow: hidden;
+    width: 100%;
+    height: 43px;
 }
 
 #header-inner{
 	width: 900px;
-	margin:  auto;
+	margin: 10px auto;
 }
 
 #left-header{
@@ -37,21 +37,40 @@ img{
 }
 
 #fb-search input{
-	border-radius: 5px;
-	width: 200px;
+	border-radius: 2px;
+    border: none;
+    width: 400px;
+    height: 22px;
 }
 
 #right-header{
 	float: right;
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+    line-height: 25px;
 }
 
 #right-header div{
 	float: left;
 }
 
+#right-header a {
+    color: white;
+    text-decoration: none;
+}
+
 #small-avatar{
 	height: 24px;
 	width: 24px;
+}
+
+#avatar-name-top, #home-link {
+    padding-left: 15px;
+}
+
+#home-link {
+    padding-right: 15px;
 }
 
 /* This is a catch all for the 3 social icon divs */
