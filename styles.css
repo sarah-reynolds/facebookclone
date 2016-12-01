@@ -2,6 +2,11 @@ img{
 	max-width: 100%;
 }
 
+body{
+	background-color: #E9EBEE;
+
+}
+
 #facebook-wrapper{
 	font-family: helvetica, arial, sans-serif;
 
@@ -114,7 +119,13 @@ img{
 .spacer{
 	line-height: 24px;
 	margin: 0 10px;
+	color: black;
+	font-size: 20px;
+	font-weight: 100;
 }
+
+
+/* COVER NAME MENU WRAPPER */
 
 #cover-photo-wrapper{
 	max-width: 900px;
@@ -122,27 +133,50 @@ img{
 	width: 100%;
 }
 
+/* COVER PHOTO ONLY */
+
 #big-photo{
 	max-height: 350px;
 	overflow: hidden;
+	position: relative;
 }
 
-#big-photo img{
 
+/* AVATAR, MENU, BUTTONS */
+
+#cover-photo-lower{
+	position: absolute;
+	top: 260px;
+	width: 900px;
 }
 
 #big-avatar{
 	display: inline-block;
+	width: 160px;
+    height: 160px;
+    padding-left: 10px;
+}
+
+#cover-photo-right{
+	width: 725px;
+	display: inline-block;
+	vertical-align: top;
+    margin-top: 60px;
 }
 
 #avatar-name{
-	float: left;
 	color: white;
 	font-size: 24px;
+	width: 200px;
+	float: left;
+
 }
 
 #cover-buttons{
+	width: 226px;
 	float: right;
+	padding-right: 10px;
+
 }
 
 #cover-buttons button{
@@ -157,22 +191,29 @@ img{
 }
 
 #cover-menu{
-	clear: both;
+	width: 725px;
+	height: 35px;
+	background-color: white;
+	margin-top: -30px;
+    padding-left: 173px;
+    border: 1px solid #E9EBEE;
+
 }
 
 .cover-menu-item{
-	float:  left;
 	list-style-type: none;
 	padding: 10px;
-	margin-top:  30px;
+	float: left;
+	border-left: 1px solid #E9EBEE;
+	color: #3B5998;
+	font-weight: bold;
+}
+
+#body-content{
+	width: 900px;
+	height: 200px;
 	background-color: white;
-}
+	margin: auto;
+    border: 1px solid #E9EBEE;
 
-#cover-photo-right{
-	display: inline-block;
-	width: 80%;
-}
-
-#cover-photo-lower{
-	margin-top: -130px;
 }
